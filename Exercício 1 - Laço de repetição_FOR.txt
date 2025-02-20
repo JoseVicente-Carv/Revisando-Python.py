@@ -1,0 +1,18 @@
+https://classroom.google.com/c/NzQyMjEwNjU2Mzcx/p/NzUwMzk0MTAzMjM1/details 
+
+Exercício 1 - Laço de repetição_FOR:
+
+1) Crie um programa que receba três números e imprima o maior deles.
+
+2) Escreva um programa que leia números inteiros do usuário até que o número 0 seja digitado. Ao final, exiba a soma desses números.
+
+3) Crie um programa que leia 10 números do usuário e armazene-os em uma lista. 
+Em seguida, exiba a lista, o maior número contido nela, e a soma de todos os números digitados.
+
+4) Escreva um programa que leia uma lista de 5 nomes e depois exiba esses nomes em ordem alfabética.
+
+5) Crie um programa que leia uma lista de 10 números inteiros e calcule a média dos valores.
+
+6) Crie um programa em Python que lê uma lista de 10 nomes e sorteia um nome entre eles.
+
+7) Crie um programa que lê uma lista de 10 números e conta a quantidade de números positivos e a quantidade de números negativos, e mostra o vetor com os negativos e a soma dos positivos.
