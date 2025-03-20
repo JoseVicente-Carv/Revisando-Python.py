@@ -4,7 +4,8 @@ Exercício 1 - Laço de repetição_FOR:
 
 1) Crie um programa que receba três números e imprima o maior deles.
 
-2) Escreva um programa que leia números inteiros do usuário até que o número 0 seja digitado. Ao final, exiba a soma desses números.
+2) Escreva um programa que leia números inteiros do usuário até que o número 0 seja digitado. 
+Ao final, exiba a soma desses números.
 
 3) Crie um programa que leia 10 números do usuário e armazene-os em uma lista. 
 Em seguida, exiba a lista, o maior número contido nela, e a soma de todos os números digitados.
