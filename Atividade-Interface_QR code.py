@@ -16,6 +16,8 @@ def gerarQRcode():
 os.system('cls || clear') # limpar tela do termial.
 
 # criar & configurar janela do aplicativo como variável.
+interface.set_appearance_mode('dark')
+
 janela = interface.CTk()
 janela.title("Interface de QR Code -José Vicente") # definir nome da janela.
 janela.geometry("600x450") # definir dimensões da janela em pixels.
