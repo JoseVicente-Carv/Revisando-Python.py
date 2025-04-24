@@ -1,6 +1,13 @@
 """ Componente: José Vicente Carvalho dos Santos; Turmma 91165, Curso técnico em Desenvolvimento de Sistemas (3º Módulo)
 Materia: internet das Coisas    Data: 10/04/2025 """
 
+https://www.youtube.com/watch?v=2yTlvPSIePs
+https://medium.com/@rahulmallah785671/create-qr-code-by-using-python-2370d7bd9b8d
+https://www.devponto.com/posts/como-gerar-qr-code-usando-python/
+https://www.tabnews.com.br/Bassani/gerando-qr-codes-com-python-um-guia-ratico-simples-com-exemplos
+https://pypi.org/project/qrcode/
+https://www.google.com/search?q=biblioteca+python+qrcode+pip+install&oq=biblioteca+python+qrcode+PIP+insta&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKAB0gEJMjM5MjdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+
 # importar biblioteca necessaria.
 import os
 import customtkinter as interface
