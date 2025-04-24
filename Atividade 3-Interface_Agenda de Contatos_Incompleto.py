@@ -61,6 +61,6 @@ BotaoDeletarContato = interface.CTkButton(janelaAgendaContatos, 155, 40, text=("
                                      command=deletarContato)
 BotaoDeletarContato.pack()
 
-# salvarAgenda() no banco de dados
+# carregarAgenda() do banco de dados
 janelaAgendaContatos.mainloop()
 print("\tTarefa Concluída!")
