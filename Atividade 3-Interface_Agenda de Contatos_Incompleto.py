@@ -1,6 +1,12 @@
 """ Componente: José Vicente Carvalho dos Santos; Turmma 91165, Curso técnico em Desenvolvimento de Sistemas (3º Módulo)
 Materia: internet das Coisas    Data: 24/04/2025 """
 
+https://keep.google.com/#NOTE/1LJ-uQJd1U5CVKuYm6JnOo88aOIxidS-pGVKS3ccSxux-7-Fw0dyhK_vAtOfMfxg
+https://photos.google.com/share/AF1QipOtHJ2zEf28dvnA-86XRSDnRk1GsZH4cHxzCI_cvh2EkXw2QV8yReTnvtrU7Ra2Zg/photo/AF1QipMh6J7H_I_EeiY_8d8sxSAEb3coAGEpM6gYx4f9
+https://www.google.com/search?q=ctk+imagery&oq=ctk+imager&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDQ4MTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.tcl-lang.org/man/tcl8.6/TkCmd/listbox.htm#M11
+https://awari.com.br/funcao-len-python-como-usar-a-funcao-len-para-contar-caracteres-em-python/ 
+
 import os
 import customtkinter as interface
 from tkinter import *
