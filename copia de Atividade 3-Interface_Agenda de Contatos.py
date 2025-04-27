@@ -1,12 +1,6 @@
 """ Componente: José Vicente Carvalho dos Santos; Turmma 91165, Curso técnico em Desenvolvimento de Sistemas (3º Módulo)
 Materia: internet das Coisas    Data: 24/04/2025 """
 
-""" https://keep.google.com/#NOTE/1LJ-uQJd1U5CVKuYm6JnOo88aOIxidS-pGVKS3ccSxux-7-Fw0dyhK_vAtOfMfxg
-https://photos.google.com/share/AF1QipOtHJ2zEf28dvnA-86XRSDnRk1GsZH4cHxzCI_cvh2EkXw2QV8yReTnvtrU7Ra2Zg/photo/AF1QipMh6J7H_I_EeiY_8d8sxSAEb3coAGEpM6gYx4f9
-https://www.google.com/search?q=ctk+imagery&oq=ctk+imager&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDQ4MTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.tcl-lang.org/man/tcl8.6/TkCmd/listbox.htm#M11
-https://awari.com.br/funcao-len-python-como-usar-a-funcao-len-para-contar-caracteres-em-python/ """
-
 
 import os
 import customtkinter as interface
@@ -24,7 +18,6 @@ def salvarAgenda(): # salvar Agenda num docdetexto.
             banco.write(x + "\n")
 
     agenda.configure(agenda, width=0) # redefine a largura/width da listBox para caber perfeitamente tds os itens armazenados nela.
-    # Talvel cause problemas se o usuario apagar tds os itens na listBox.
 
 def carregarAgenda():
     with open("Registros da agenda.txt", "r") as banco:
@@ -35,7 +28,6 @@ def carregarAgenda():
             agenda.insert(0, a.strip())
             
         agenda.configure(agenda, width=0) # redefine a largura/width da listBox para caber perfeitamente a tds os itens armazenados nela.
-        # Talvel cause problemas se acbar apagando tds os itens nela
 
 def adicionarContato():
     contato : str = nome.get() + " - " + telefone.get() + " - " + email.get()
@@ -50,9 +42,6 @@ def adicionarContato():
         salvarAgenda()
     else:
         messagebox.showerror("Erro em entradas", "Um dos campos do contato está vazio.")
-
-    print(contato) # mostra as palavras inseridas na ListBox
-    print(len(contato)) # Mostra o numeros de caracteres do contato adicionado
 
 def deletarContato():
     contatoSelecionado = agenda.curselection()
@@ -113,4 +102,3 @@ BotaoDeletarContato.pack(pady = 10)
 carregarAgenda() # carregar contatos do banco de dados na ListBox.
 
 janelaAgendaContatos.mainloop()
-print("\tTarefa Concluída!")

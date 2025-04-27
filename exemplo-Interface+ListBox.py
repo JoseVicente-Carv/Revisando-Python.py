@@ -6,12 +6,11 @@ from tkinter import messagebox
 def add_tarefa():
     t = tarefa.get()
     if (t):
-        lista_tarefa.insert(0,t)
-        tarefa.delete(0,END)
+        lista_tarefa.insert(0,t) # Insere tarefa escrita pelo usuário na ListBox.
+        tarefa.delete(0,END) # Limpar barra de entrada de tarefas.
         salvar_tarefa()
     else:
         messagebox.showerror('Erro','Campo Vazio!')
-     
      
    
 def del_tarefa():
@@ -37,9 +36,6 @@ def carregar_tarefa():
         for x in tarefas:
             lista_tarefa.insert(0,x.strip())
         
-        
-        
-        
 #==============================Janela
 ctk.set_appearance_mode('dark')
 janela = ctk.CTk()
@@ -48,7 +44,6 @@ janela.title('Lista de Tarefas - V1')
 janela.resizable(False,False)
 #==============================Janela
 
-
 tarefa = ctk.CTkEntry(janela,
                       width=320,
                       height=40,
@@ -56,8 +51,6 @@ tarefa = ctk.CTkEntry(janela,
                       placeholder_text='Digite a tarefa a ser criada: ')
 
 tarefa.pack(pady=10)
-
-
 
 buttonadc = ctk.CTkButton(janela,
                           width=100,
@@ -71,9 +64,6 @@ buttonadc = ctk.CTkButton(janela,
                           command= add_tarefa)
 buttonadc.place(x=15,y=95)
 
-
-
-
 buttonexcluir = ctk.CTkButton(janela,
                           width=100,
                           height=40,
@@ -86,10 +76,6 @@ buttonexcluir = ctk.CTkButton(janela,
                           command= del_tarefa)
 buttonexcluir.place(x=195,y=95)
 
-
-
-
-
 lista_tarefa = Listbox(janela,
                        width=30,
                        height=16,
@@ -99,9 +85,6 @@ lista_tarefa = Listbox(janela,
                        highlightthickness=2,
                        fg='white')
 lista_tarefa.place (x=10,y=180)
-
-
-
 
 carregar_tarefa()
 janela.mainloop()
